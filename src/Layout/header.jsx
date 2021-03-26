@@ -5,13 +5,16 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import Logo from '../assets/images/logo.png';
+import { useSelector } from 'react-redux'
 import useStyles from './styles';
 
 export default function Header() {
     const classes = useStyles();
+    const { color } = useSelector(state => state.header);
+    
     return (
         <div className={classes.root}>
-            <AppBar position="static" style={{ backgroundColor: '#8c0406' }}>
+            <AppBar position="static" style={{ backgroundColor: color }}>
                 <Toolbar>
                     <Link to='/'>
                         <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">

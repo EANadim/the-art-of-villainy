@@ -1,12 +1,21 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { setHeaderColor } from '../../store/actions/header';
 import { Link } from "react-router-dom";
 import Grid from '@material-ui/core/Grid';
-import useStyles from './styles';
 import Slide from '@material-ui/core/Slide';
-import Paper from '@material-ui/core/Paper';
+import useStyles from './styles';
 
 export default function Home() {
     const classes = useStyles();
+    const dispatch = useDispatch();
+    useEffect(() => {
+        const payload = {
+            color: "#8c0406"
+        }
+        dispatch(setHeaderColor(payload));
+    }, []);
+
     return (
         <Fragment>
             <div className={classes.paperContainer}>

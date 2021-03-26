@@ -3,16 +3,25 @@ import ImageBtn from '../ImageBtn';
 import nightKingTheme from '../../assets/music/night-king-theme.mp3';
 import useStyles from './styles';
 import _cards from './cards';
+import { useDispatch } from 'react-redux';
+import {setHeaderColor} from "../../store/actions/header";
 const _ = require('lodash');
 
 export default function NightKing() {
   const audio = new Audio(nightKingTheme);
+  const dispatch = useDispatch()
+
   useEffect(() => {
     audio.play();
+    const payload = {
+      color: "#445b68"
+    }
+    dispatch(setHeaderColor(payload));
     return function cleanup() {
       audio.pause();
     }
   }, []);
+
   const classes = useStyles();
   const [cards, setCards] = useState(_cards);
   const [selectedCard, setSelectedCard] = useState(null);
