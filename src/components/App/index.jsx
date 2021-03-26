@@ -3,7 +3,7 @@ import './index.css';
 import Header from '../../Layout/header';
 import Footer from '../../Layout/footer';
 import Routes from '../../Routes';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
     return (
