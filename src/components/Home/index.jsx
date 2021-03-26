@@ -24,12 +24,12 @@ export default function Home() {
                         <Grid container justify="center" spacing={2} className={classes.levelSelectionButtons}>
                             <Slide direction="up" in={true} mountOnEnter unmountOnExit>
                                 <Grid key={'night-king'}>
-                                    <Link className={classes.levelSelectionAnchor} to={"/night-king"}><button className={classes.buttonStepNightKing}><p className={classes.btnNightKingText}>PLAY AS NIGHT KING</p></button></Link>
+                                    <Link className={classes.levelSelectionAnchor} to={"/night-king"}><button className={classes.buttonStepNightKing}><p className={classes.btnText} style={{ fontFamily: "Game of Thrones" }}>PLAY AS NIGHT KING</p></button></Link>
                                 </Grid>
                             </Slide>
                             <Slide direction="up" in={true} mountOnEnter unmountOnExit>
                                 <Grid key={'thanos'}>
-                                    <Link className={classes.levelSelectionAnchor} to={"/thanos"}><button className={classes.buttonStepThanos}>PLAY AS THANOS</button></Link>
+                                    <Link className={classes.levelSelectionAnchor} to={"/thanos"}><button className={classes.buttonStepThanos}><p className={classes.btnText} style={{ fontFamily: "The Avengers" }}>PLAY AS THANOS</p></button></Link>
                                 </Grid>
                             </Slide>
                             <Slide direction="up" in={true} mountOnEnter unmountOnExit>

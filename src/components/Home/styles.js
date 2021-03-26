@@ -64,8 +64,7 @@ const useStyles = makeStyles((theme) => ({
         stroke: theme.palette.divider,
         strokeWidth: 1,
     },
-    btnNightKingText: {
-        fontFamily: "Game of Thrones",
+    btnText: {
         color: "#ffffff",
         fontSize: '-webkit-xxx-large',
         fontWeight: 800,
