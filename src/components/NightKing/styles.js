@@ -1,5 +1,4 @@
 import { makeStyles } from '@material-ui/core/styles';
-import NightKing from '../../assets/images/game-of-thrones/NightKing.jpg';
 import NightKingVictory from '../../assets/images/game-of-thrones/night-king-victory.jpg';
 import NightKingLoss from '../../assets/images/game-of-thrones/night-king-loss.jpg';
 import getWindowDimensions from '../../helpers/windowDimensions';
