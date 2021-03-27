@@ -18,7 +18,7 @@ export default function Header() {
                 <Toolbar>
                     <Link to='/'>
                         <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                            <img src={Logo} className={classes.logo} />
+                            <img src={Logo} className={classes.logo} alt=""/>
                         </IconButton>
                     </Link>
                     <Typography variant="h6" className={classes.title}>

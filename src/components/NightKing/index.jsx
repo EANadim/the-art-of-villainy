@@ -8,7 +8,6 @@ import Loss from './loss';
 import Victory from './victory';
 import NightKingBGImage from '../../assets/images/game-of-thrones/NightKing.jpg';
 import Playground from '../Playground';
-const _ = require('lodash');
 
 export default function NightKing() {
   const dispatch = useDispatch();

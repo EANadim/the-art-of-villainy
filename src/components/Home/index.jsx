@@ -29,12 +29,12 @@ export default function Home() {
                             </Slide>
                             <Slide direction="up" in={true} mountOnEnter unmountOnExit>
                                 <Grid key={'thanos'}>
-                                    <Link className={classes.levelSelectionAnchor} to={"/thanos"}><button className={classes.buttonStepThanos}><p className={classes.btnText} style={{ fontFamily: "The Avengers" }}>PLAY AS THANOS</p></button></Link>
+                                    <Link className={classes.levelSelectionAnchor} to={"/thanos"}><button className={classes.buttonStepThanos}><p className={classes.btnText} style={{ fontFamily: "The Avengers" }}>SNAP THE AVENGERS</p></button></Link>
                                 </Grid>
                             </Slide>
                             <Slide direction="up" in={true} mountOnEnter unmountOnExit>
                                 <Grid key={'darkseid'}>
-                                    <Link className={classes.levelSelectionAnchor} to={"/darkseid"}><button className={classes.buttonStepDarkseid}>PLAY AS DARKSEID</button></Link>
+                                    <Link className={classes.levelSelectionAnchor} to={"/darkseid"}><button className={classes.buttonStepDarkseid}><p className={classes.btnText} style={{ fontFamily: "JUSTICE LEAGUE" }}>PLAY AS DARKSEID</p></button></Link>
                                 </Grid>
                             </Slide>
                         </Grid>

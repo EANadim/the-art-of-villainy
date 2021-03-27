@@ -8,12 +8,11 @@ import Loss from './loss';
 import Victory from './victory';
 import ThanosBGImage from '../../assets/images/avengers/thanos.jpg';
 import Playground from '../Playground';
-const _ = require('lodash');
 
 export default function Thanos() {
   const dispatch = useDispatch();
-  
-  const countdown = 5;
+
+  const countdown = 120;
   const loss = <Loss />;
   const victory = <Victory />;
 
