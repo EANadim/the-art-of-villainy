@@ -32,7 +32,7 @@ export default function Playground({ _cards, loss, victory, countdown, themeMusi
 
     const onToogleDisplay = ((card) => {
         let _cards = _.cloneDeep(cards);
-        if (selectedCard && selectedCard.id === card.id && selectedCard.group != card.group) {
+        if (selectedCard && selectedCard.id === card.id && selectedCard.group !== card.group) {
             const tempCards = _cards.filter((item) => (!(item.id === card.id)));
             _cards = _.cloneDeep(tempCards);
         }
@@ -71,8 +71,8 @@ export default function Playground({ _cards, loss, victory, countdown, themeMusi
                     )}
                 </div>
             </div>}
-            {gameState == 1 && victory}
-            {gameState == 2 && loss}
+            {gameState === 1 && victory}
+            {gameState === 2 && loss}
         </Fragment>
     );
 }

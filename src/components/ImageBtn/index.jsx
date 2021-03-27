@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import buttonRandomPosition from "../../helpers/buttonRandomPosition";
-// import FacelessBtn from '../../assets/images/game-of-thrones/Faceless.jpg';
 import Paper from '@material-ui/core/Paper';
 import Zoom from '@material-ui/core/Zoom';
 
