@@ -2,16 +2,15 @@
     padding: 20px;
 }
 
-@font-face {font-family: "Game of Thrones";
-    src: url("http://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.eot"); /* IE9*/
-    src: url("http://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.woff2") format("woff2"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.woff") format("woff"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("http://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.svg#Game of Thrones") format("svg"); /* iOS 4.1- */
-}
-
+@font-face {
+    font-family: 'Game of Thrones';
+    src: local('Game of Thrones'), url(../../assets/fonts/Game\ of\ Thrones.woff) format('woff');
+  }
 @font-face {
     font-family: 'JUSTICE LEAGUE';
     src: local('JUSTICE LEAGUE'), url(../../assets/fonts/JUSTICE\ LEAGUE.woff) format('woff');
+  }
+  @font-face {
+    font-family: 'The Avengers';
+    src: local('The Avengers'), url(../../assets/fonts/The\ Avengers.woff) format('woff');
   }
