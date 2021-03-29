@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 import { setHeaderColor } from "../../store/actions/header";
 import Loss from './loss';
 import Victory from './victory';
-import NightKingBGImage from '../../assets/images/game-of-thrones/NightKing.jpg';
+import NightKingBGImage from '../../assets/images/game-of-thrones/night-king.jpg';
 import Playground from '../Playground';
 
 export default function NightKing() {
