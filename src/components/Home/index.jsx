@@ -1,6 +1,7 @@
 import React, { Fragment, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { setHeaderColor } from '../../store/actions/header';
+import imperialMarchTheme from '../../assets/music/imperial-march-theme.mp3';
 import { Link } from "react-router-dom";
 import Grid from '@material-ui/core/Grid';
 import Slide from '@material-ui/core/Slide';
@@ -9,11 +10,17 @@ import useStyles from './styles';
 export default function Home() {
     const classes = useStyles();
     const dispatch = useDispatch();
+    const audio = new Audio(imperialMarchTheme);
+
     useEffect(() => {
+        audio.play();
         const payload = {
-            color: "#8c0406"
+            color: "#000000"
         }
         dispatch(setHeaderColor(payload));
+        return function cleanup() {
+            audio.pause();
+        }
     }, []);
 
     return (

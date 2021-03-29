@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
         fontSize: "500%",
         fontFamily: "JUSTICE LEAGUE",
-        color: "#24467e",
+        color: "#4f3515",
     }
 }));
 export default useStyles;

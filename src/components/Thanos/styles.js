@@ -19,8 +19,7 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
         fontSize: "500%",
         fontFamily: "The Avengers",
-        src: "url('http://www.fontsaddict.com/fontface/the-avengers.ttf')",
-        color: "#24467e",
+        color: "#6d3678",
     }
 }));
 export default useStyles;

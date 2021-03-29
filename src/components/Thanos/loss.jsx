@@ -7,7 +7,7 @@ const Loss = (() => {
     }, []);
     return (
         <div className={classes.lossPaperContainer}>
-            <p className={classes.resultText}>YOU LOST</p>
+            <p className={classes.resultText}>REALITY IS OFTEN DISAPPOINTING</p>
         </div>
     )
 });

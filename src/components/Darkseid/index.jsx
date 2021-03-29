@@ -17,7 +17,7 @@ export default function Darkseid() {
 
   useEffect(() => {
     const payload = {
-      color: "#000000"
+      color: "#4f3515"
     }
     dispatch(setHeaderColor(payload));
   }, []);

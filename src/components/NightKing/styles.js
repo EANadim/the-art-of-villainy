@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center",
         fontSize: "500%",
         fontFamily: "Game of Thrones",
-        color: "#24467e",
+        color: "#445b68",
     }
 }));
 export default useStyles;

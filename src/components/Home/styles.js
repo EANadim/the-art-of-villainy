@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     },
     paperContainer: {
         height: getWindowDimensions().width < (cardWidth * 2) ? cardHeight * 4 : getWindowDimensions().height,
-        backgroundColor: "#a10609",
+        backgroundColor: "#101010",
         // backgroundImage: `url(${"https://images4.alphacoders.com/705/705509.jpg"})`
     },
     control: {
