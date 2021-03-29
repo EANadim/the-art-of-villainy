@@ -23,6 +23,11 @@ export default function Home() {
                     <Grid item xs={12}>
                         <Grid container justify="center" spacing={2} className={classes.levelSelectionButtons}>
                             <Slide direction="up" in={true} mountOnEnter unmountOnExit>
+                                <Grid key={'darkseid'}>
+                                    <Link className={classes.levelSelectionAnchor} to={"/darkseid"}><button className={classes.buttonStepDarkseid}><p className={classes.btnText} style={{ fontFamily: "JUSTICE LEAGUE" }}>PLAY AS DARKSEID</p></button></Link>
+                                </Grid>
+                            </Slide>
+                            <Slide direction="up" in={true} mountOnEnter unmountOnExit>
                                 <Grid key={'night-king'}>
                                     <Link className={classes.levelSelectionAnchor} to={"/night-king"}><button className={classes.buttonStepNightKing}><p className={classes.btnText} style={{ fontFamily: "Game of Thrones" }}>PLAY AS NIGHT KING</p></button></Link>
                                 </Grid>
@@ -30,11 +35,6 @@ export default function Home() {
                             <Slide direction="up" in={true} mountOnEnter unmountOnExit>
                                 <Grid key={'thanos'}>
                                     <Link className={classes.levelSelectionAnchor} to={"/thanos"}><button className={classes.buttonStepThanos}><p className={classes.btnText} style={{ fontFamily: "The Avengers" }}>SNAP THE AVENGERS</p></button></Link>
-                                </Grid>
-                            </Slide>
-                            <Slide direction="up" in={true} mountOnEnter unmountOnExit>
-                                <Grid key={'darkseid'}>
-                                    <Link className={classes.levelSelectionAnchor} to={"/darkseid"}><button className={classes.buttonStepDarkseid}><p className={classes.btnText} style={{ fontFamily: "JUSTICE LEAGUE" }}>PLAY AS DARKSEID</p></button></Link>
                                 </Grid>
                             </Slide>
                         </Grid>
