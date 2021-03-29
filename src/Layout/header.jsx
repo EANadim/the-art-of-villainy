@@ -22,7 +22,7 @@ export default function Header() {
                         </IconButton>
                     </Link>
                     <Typography variant="h6" className={classes.title}>
-                        The art of villainy
+                        The Art of Villainy
                      </Typography>
                     {/* <Button color="inherit">Login</Button> */}
                 </Toolbar>
